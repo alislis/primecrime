@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Oswald;
+    src: url("./fonts/Oswald-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url("./fonts/Oswald-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Microgramma;
+    src: url("./fonts/MicrogrammaNormal.ttf");
+    font-weight: normal;
+}
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Oswald;
+}
+
+#back {
+    background: url("../img/backwall2.png");
+    /*background-size: cover;*/
+    background-color: rgba(0, 0, 0, 0.52);
+    background-blend-mode: multiply;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lastview {
+    width: 55%;
+    position: fixed;
+    left: 20%;
+    top: 20%
+}
+
+
+.mainForm {
+    position: absolute;
+    top:7%;
+    left:20%;
+    width: 45vw;
+    height: 45vw;
+    /*border: 2px solid white;*/
+    /*border-radius: 100%;*/
+    background-color: black;
+    /*margin-left: 25vw;*/
+    /*margin-top: 25vh;*/
+    text-align: center;
+    /*padding-top: 3%;*/
+    /*padding-bottom: 5%;*/
+    /*padding-left: 10%;*/
+    background: url("../img/aim2.png");
+    background-size: cover;
+}
+
+
+
+.logo {
+    width: 20vw;
+    padding-top: 16%;
+}
+
+#view1, #view4, #view5 {
+    margin-top: 8%;
+}
+
+#view1 input, #view4 input {
+    margin-top: 3%;
+}
+
+#view1 button, #view4 button {
+    margin-top: 7%;
+}
+
+
+
+.icons {
+    width: 7vw;
+}
+
+
+
+.mainForm h1 {
+    font-size: 1.1em;
+    font-family: Microgramma;
+}
+
+.mainForm h2 {
+    font-size: 1em;
+    font-family: Oswald;
+
+}
+
+
+
+.mainForm button {
+    width: 90px;
+    height: 50px;
+    margin: 10%;
+    margin-top: 0;
+    background-color: #0e54c1;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+    border: 1px solid black;
+    font-family: Oswald;
+
+}
+
+.mainForm button:hover {
+    width: 90px;
+    height: 50px;
+    background-color: #ffeed9;
+    color: #0e54c1;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+
+
+.mainForm input[type="text"] {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, 0.17);
+}
+
+#custom_input {
+    width: 25%;
+    /*height: 20%;*/
+}
+
+
+
+section form {
+    margin-left: 25%;
+}
+
+
+
+label {
+    /*width: 200px;*/
+    /*height: 30px;*/
+    /*display: block;*/
+    padding: 1%;
+    /*border: 1px solid white;*/
+    /*margin-left: 10%;*/
+}
+
+label:hover {
+    border: 1px solid rgba(10, 78, 191, 0.39);
+    box-shadow: 0 0 5px rgba(13, 103, 255, 0.41);
+
+}
+
+input:checked + label{
+    border: 1px solid rgba(10, 78, 191, 0.39);
+    box-shadow: 0 0 5px rgba(13, 103, 255, 0.41);
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 100%;
+    width: 70%;
+}
+
+.left {
+    width: 30%;
+    height: 40%;
+}
+
+.right {
+    width: 30%;
+    height: 40%;
+}
+
+
