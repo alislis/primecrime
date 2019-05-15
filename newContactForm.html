@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_tI2bSQeGUos4AFbpNs2Iz");
+        })();
+    </script>
+
+
+    <script defer src="newContactForm.js"></script>
+    <link href="css/styleForm.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div id="back">
+<div class="mainForm">
+
+
+    <img src="img/logo.png" class="logo">
+
+
+    <section id="view1">
+        <h2 class="type-it">Type your nickname</h2>
+        <div id="nameForm">
+        <input type="text" id="name_input"/>
+        <br />
+        <button id="btn_1"> Next step </button>
+        </div>
+    </section>
+
+    <section id="view2">
+
+        <h2 class="type-it2">Ok, <span class="username"></span>, choose your aim</h2>
+
+
+        <form id="aimForm">
+            <div class="flex-container ">
+        <!--<div class="left">-->
+        <input type="radio" name="aimList" value="Bank" id="aim_bank" hidden class="left">
+            <label for="aim_bank" class="left"><img src="img/icons/Bank.png" class="icons"></label>
+
+        <input type="radio" name="aimList" value="Gallery" id="aim_gallery" hidden class="left">
+            <label for="aim_gallery" class="left"><img src="img/icons/Gallery.png" class="icons"></label>
+
+        <input type="radio" name="aimList" value="Jewelry" id="aim_jewelry" hidden class="left">
+            <label for="aim_jewelry" class="left"><img src="img/icons/Jewelry.png" class="icons"></label>
+        <!--</div>-->
+
+            <!--<div class="right">-->
+        <input type="radio" name="aimList" value="Data Center" id="aim_data" hidden class="right">
+            <label for="aim_data" class="right"><img src="img/icons/Datacenter.png" class="icons"></label>
+
+        <input type="radio" name="aimList" value="Incassator" id="aim_incassator" hidden class="right">
+            <label for="aim_incassator" class="right"><img src="img/icons/Incassator.png" class="icons"></label>
+        <input type="radio" name="aimList" value="Your Aim" id="aim_custom" hidden class="right">
+            <label for="aim_custom" class="right"><img src="img/icons/YourAim.png" class="icons"></label>
+
+        <input type="text" name="aimList" id="custom_input" placeholder="type here" hidden class="right">
+            <!--</div>-->
+            </div>
+        </form>
+
+
+        <button id="btn_2"> Next step </button>
+
+    </section>
+
+
+
+
+
+    <section id="view3">
+
+        <h2 class="type-it3">What do you need to get <span id="aim"></span>?</h2>
+
+        <form id="needForm">
+            <div class="flex-container ">
+
+            <input type="checkbox" name="needList" value="Hacker" id="need4" hidden class="right">
+            <label for="need4" class="right"><img src="img/icons/Hacker.png" class="icons"></label>
+
+            <input type="checkbox" name="needList" value="Lawyer" id="need2" hidden class="left">
+            <label for="need2" class="left"><img src="img/icons/Lawyer.png" class="icons"></label>
+
+            <input type="checkbox" name="needList" value="Driver" id="need3" hidden class="left">
+            <label for="need3" class="left"><img src="img/icons/Driver.png" class="icons"></label>
+
+            <input type="checkbox" name="needList" value="Time-Manager" id="need1" hidden class="left">
+            <label for="need1" class="left"><img src="img/icons/Planner.png" class="icons"></label>
+
+            <input type="checkbox" name="needList" value="Shooter" id="need5" hidden class="right">
+            <label for="need5" class="right"><img src="img/icons/Shooter.png" class="icons"></label>
+
+            <input type="checkbox" name="needList" value="Burglar" id="need6" hidden class="right">
+            <label for="need6" class="right"><img src="img/icons/Burglar.png" class="icons"></label>
+            </div>
+        </form>
+
+
+
+        <button id="btn_3"> Next step </button>
+    </section>
+
+
+    <section id="view4">
+        <h2 class="type-it4">Type your e-mail or phone</h2>
+        <div id="contactForm">
+            <input type="text" id="contact_input"/>
+        <br />
+        <button id="btn_4"> Next step </button>
+        </div>
+    </section>
+
+
+    <section id="view5">
+        <h2 class="type-it5">Ok, <span class="username"></span>, we will be in touch</h2>
+
+    </section>
+
+
+</div>
+</div>
+    <div id="last">
+       <img src="img/logo.png" class="lastview">
+    </div>
+
+
+
+
+</body>
+</html>
