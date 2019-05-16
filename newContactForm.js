@@ -4,14 +4,14 @@
 $(document).ready(function () {
 
     //hide all views
-
+    $("#last").hide();
     $("#view1").hide();
     $("#nameForm").hide();
     $("#view2").hide();
     $("#view3").hide();
     $("#view4").hide();
     $("#view5").hide();
-    $("#last").hide();
+
 
 
 
