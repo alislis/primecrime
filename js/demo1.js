@@ -1,13 +1,3 @@
-/**
- * demo2.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
 {
 
 	function debounce(func, wait, immediate) {
@@ -92,7 +82,7 @@
                     setTimeout(() => {
                         next();
                         fun();
-                    }, 4700);
+                    }, 5700);
                 }
                 fun();
             let next = () => {this.navigate('next')};
