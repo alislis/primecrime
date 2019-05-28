@@ -26,7 +26,7 @@ body {
 }
 
 #back {
-    background: url("../img/backwall2.png");
+    /*background: url("../img/backwall2.png");*/
     /*background-size: cover;*/
     background-color: rgba(0, 0, 0, 0.52);
     background-blend-mode: multiply;
@@ -36,6 +36,19 @@ body {
     width: 100%;
     height: 100%;
 }
+
+#newbackwall {
+	position:absolute;
+	top:0;
+	right:0;
+	width: 45%;
+	height:100%;
+	    background: url("../img/newbackwall.png");
+    background-size: cover;
+}
+
+   
+
 
 .lastview {
     width: 55%;
